@@ -51,7 +51,7 @@ The **Bus Pass Management System** is an Android application designed to streaml
      $user = '<your_username>';
      $pass = '<your_password>';
      ```
-   - By default user is `root` and password is ``
+   - By default user is `root` and password is blank
 
 4. Deploy the backend code to a local or live server.
 
