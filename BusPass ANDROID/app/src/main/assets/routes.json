@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "route": "Kolhapur-Sangli",
+      "from": "Kolhapur",
+      "to": "Sangli",
+      "rate": 50
+    },
+    {
+      "route": "Kolhapur-Miraj",
+      "from": "Kolhapur",
+      "to": "Miraj",
+      "rate": 70
+    },
+    {
+      "route": "Kolhapur-Karad",
+      "from": "Kolhapur",
+      "to": "Karad",
+      "rate": 60
+    },
+    {
+      "route": "Kolhapur-Panhala",
+      "from": "Kolhapur",
+      "to": "Panhala",
+      "rate": 40
+    },
+    {
+      "route": "Kolhapur-Gadhinglaj",
+      "from": "Kolhapur",
+      "to": "Gadhinglaj",
+      "rate": 80
+    },
+    {
+      "route": "Kolhapur-Aajra",
+      "from": "Kolhapur",
+      "to": "Aajra",
+      "rate": 55
+    },
+    {
+      "route": "Kolhapur-Shahuwadi",
+      "from": "Kolhapur",
+      "to": "Shahuwadi",
+      "rate": 45
+    },
+    {
+      "route": "Kolhapur-Radhanagari",
+      "from": "Kolhapur",
+      "to": "Radhanagari",
+      "rate": 50
+    }
+  ]
+}

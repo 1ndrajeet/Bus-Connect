@@ -1,0 +1,76 @@
+### Get Current Passes
+GET http://localhost/bus/conn.php
+
+
+### Test User Sign Up
+POST http://localhost/bus/signup.php
+Content-Type: application/json
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "number": "1234567890",
+    "password": "securepassword"
+}
+
+### Test User Login
+POST http://localhost/bus/login.php
+Content-Type: application/json
+
+{
+    "email": "john@example.com",
+    "password": "securepassword"
+}
+
+
+
+
+### Request New Pass
+POST http://localhost/bus/new_pass.php
+Content-Type: application/json
+
+{
+    "user_id": 6,
+    "from": "City A",
+    "to": "City B",
+    "duration":1,
+    "paymentMode": "Credit Card"
+}
+
+### Retrieve Passes
+GET http://localhost/bus/all_passes.php?user_id=6
+
+
+
+
+
+
+
+
+### Get All Requests
+GET http://localhost/bus/admin_pass.php
+Accept: application/json
+
+### Approve a Request
+POST http://localhost/bus/admin_pass.php
+Content-Type: application/json
+
+{
+    "request_id": 2,
+    "action": "approve"
+}
+
+### Reject a Request
+POST http://localhost/bus/admin_pass.php
+Content-Type: application/json
+
+{
+    "request_id": 3,
+    "action": "reject"
+}
+
+
+
+
+### Get user details by ID
+GET http://localhost/bus/admin_users.php?
+
