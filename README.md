@@ -35,7 +35,7 @@ The **Bus Pass Management System** is an Android application designed to streaml
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/1ndrajeet/Bus-Connect
    ```
 
 2. Import the `bus.sql` file into your MySQL database.
@@ -48,9 +48,10 @@ The **Bus Pass Management System** is an Android application designed to streaml
      ```php
      $host = 'localhost';
      $db = 'bus';
-     $user = 'your_username';
-     $pass = 'your_password';
+     $user = '<your_username>';
+     $pass = '<your_password>';
      ```
+    -By default user is `root` and password is ``
 
 4. Deploy the backend code to a local or live server.
 

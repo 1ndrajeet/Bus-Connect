@@ -5,6 +5,7 @@ GET http://localhost/bus/conn.php
 ### Test User Sign Up
 POST http://localhost/bus/signup.php
 Content-Type: application/json
+
 {
     "name": "John Doe",
     "email": "john@example.com",
